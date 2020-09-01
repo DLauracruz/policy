@@ -18,23 +18,53 @@ export const Promotions = () => {
         >
           <div className="card">
             <span>Services</span>
-            <div className="info">
-              <i className="fas fa-car-side"></i>
-              Personal Auto
+            <div className="icons">
+              <div className="info">
+                <i className="fas fa-car-side"></i>
+                Personal Auto
+              </div>
+              <div className="info">
+                <i className="fas fa-motorcycle"></i>
+                Motorcycle
+              </div>
+              <div className="info">
+                <i className="fas fa-house-user"></i>
+                House
+              </div>
             </div>
           </div>
           <div className="card">
             <span>Services</span>
-            <div className="info">
-              <i className="fas fa-motorcycle"></i>
-              Motorcycle
+            <div className="icons">
+              <div className="info">
+                <i className="fas fa-car-side"></i>
+                Personal Auto
+              </div>
+              <div className="info">
+                <i className="fas fa-motorcycle"></i>
+                Motorcycle
+              </div>
+              <div className="info">
+                <i className="fas fa-house-user"></i>
+                House
+              </div>
             </div>
           </div>
           <div className="card">
             <span>Services</span>
-            <div className="info">
-              <i className="fas fa-house-user"></i>
-              House
+            <div className="icons">
+              <div className="info">
+                <i className="fas fa-car-side"></i>
+                Personal Auto
+              </div>
+              <div className="info">
+                <i className="fas fa-motorcycle"></i>
+                Motorcycle
+              </div>
+              <div className="info">
+                <i className="fas fa-house-user"></i>
+                House
+              </div>
             </div>
           </div>
         </Carousel>
@@ -50,23 +80,53 @@ export const Promotions = () => {
         >
           <div className="card2">
             <span>Newsletter</span>
-            <div className="info">
-              <i className="fas fa-car-side"></i>
-              Personal Auto
+            <div className="icons">
+              <div className="info">
+                <i className="fas fa-car-side"></i>
+                Personal Auto
+              </div>
+              <div className="info">
+                <i className="fas fa-motorcycle"></i>
+                Motorcycle
+              </div>
+              <div className="info">
+                <i className="fas fa-house-user"></i>
+                House
+              </div>
             </div>
           </div>
           <div className="card2">
             <span>Newsletter</span>
-            <div className="info">
-              <i className="fas fa-motorcycle"></i>
-              Motorcycle
+            <div className="icons">
+              <div className="info">
+                <i className="fas fa-car-side"></i>
+                Personal Auto
+              </div>
+              <div className="info">
+                <i className="fas fa-motorcycle"></i>
+                Motorcycle
+              </div>
+              <div className="info">
+                <i className="fas fa-house-user"></i>
+                House
+              </div>
             </div>
           </div>
           <div className="card2">
             <span>Newletter</span>
-            <div className="info">
-              <i className="fas fa-house-user"></i>
-              House
+            <div className="icons">
+              <div className="info">
+                <i className="fas fa-car-side"></i>
+                Personal Auto
+              </div>
+              <div className="info">
+                <i className="fas fa-motorcycle"></i>
+                Motorcycle
+              </div>
+              <div className="info">
+                <i className="fas fa-house-user"></i>
+                House
+              </div>
             </div>
           </div>
         </Carousel>

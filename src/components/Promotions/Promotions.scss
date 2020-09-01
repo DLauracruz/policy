@@ -12,6 +12,7 @@
     .card2 {
         display: flex;
         flex-flow: column;
+        align-items: center;
         width: 100%;
         height: 10em;
         @include gradient(rgb(241, 105, 18), rgba(228, 60, 86, 1), 40);
@@ -19,17 +20,30 @@
             text-align: left;
             margin-left: 1em;
         }
-        .info {
+        .icons {
+            width: 95%;
+            height: 8em;
             display: flex;
-            flex-flow: column;
-            justify-content: center;
-            width: 100%;
-            cursor: pointer;
-            font-weight: 700;
-            color: $primary-txt-color;
-            i {
-                color: white;
-                font-size: 4rem;
+            flex-flow: row;
+            justify-content: space-between;
+            .info {
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                width: 33%;
+                cursor: pointer;
+                font-weight: 700;
+                color: $primary-txt-color;
+                i {
+                    color: white;
+                    font-size: 4rem;
+                }
+            }
+            .info:first-child {
+                border-right: 1px solid white;
+            }
+            .info:last-child {
+                border-left: 1px solid white;
             }
         }
     }

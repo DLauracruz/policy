@@ -84,21 +84,21 @@ export const Charts = () => {
       {opcion === 0 || opcion === 2 ? (
         <Bar
           data={week}
-          width={100}
-          height={50}
           options={{
             maintainAspectRatio: false,
           }}
+          height={""}
+          width={""}
           legend={{ labels: false }}
         />
       ) : (
         <Bar
           data={month}
-          width={100}
-          height={50}
           options={{
             maintainAspectRatio: false,
           }}
+          height={""}
+          width={""}
           legend={{ labels: false }}
         />
       )}
