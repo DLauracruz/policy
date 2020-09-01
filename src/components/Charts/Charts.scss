@@ -1,0 +1,39 @@
+@import "../../scss/colors";
+#Charts {
+    background-color: $primary-color;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 2em;
+    padding: 1em;
+    h3 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 0.5em;
+    }
+    ul {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        border-radius: 4em;
+        background-color: $secondary-color;
+        height: 3em;
+        padding: 0 1em;
+        margin-bottom: 1em;
+        li {
+            text-align: center;
+            width: 33%;
+            &:hover {
+                cursor: pointer;
+                transition-duration: 0.3s;
+                color: $ligth-color;
+            }
+        }
+        .selected {
+            background-color: $ligth-color;
+            color: $secondary-color;
+            border-radius: 2em;
+            transition-duration: 0.3s;
+        }
+    }
+}

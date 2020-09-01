@@ -1,0 +1,23 @@
+@import "../../../scss/colors";
+nav {
+    width: 90vw;
+    padding: 0.5em 1em;
+    background-color: $secondary-color;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    border-radius: 4em;
+    ul {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        li {
+            font-weight: 500;
+            padding: 0 2em;
+            &:hover {
+                cursor: pointer;
+                color: $ligth-color;
+                transition-duration: 0.3s;
+            }
+        }
+    }
+}
